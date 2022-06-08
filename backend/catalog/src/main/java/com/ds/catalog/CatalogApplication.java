@@ -2,8 +2,10 @@ package com.ds.catalog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.web.config.EnableSpringDataWebSupport;
 
 @SpringBootApplication
+@EnableSpringDataWebSupport
 public class CatalogApplication {
 
 	public static void main(String[] args) {
